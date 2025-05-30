@@ -1629,8 +1629,16 @@ function App() {
                         <Logo />
                       </div>
                       <div className="text-gray-400 text-sm">
-                        © BrandWeave. All rights reserved. |Powered by VRND
-                        Business Solutions|
+                        © BrandWeave. All rights reserved. |Powered by{" "}
+                        <a
+                          href="https://vrnd.tech"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#e57701] hover:text-[#ff8c1a] transition-colors duration-300"
+                        >
+                          VRND Business Solutions
+                        </a>
+                        |
                       </div>
                     </div>
                   </div>
